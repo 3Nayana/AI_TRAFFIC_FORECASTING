@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/*.csv
+data/road_cache/
+models/*.pt
+models/*.joblib
+.streamlit/secrets.toml

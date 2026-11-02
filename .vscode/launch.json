@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Streamlit app", "type": "debugpy", "request": "launch", "module": "streamlit",
+     "args": ["run", "app.py"], "cwd": "${workspaceFolder}", "justMyCode": true},
+    {"name": "Run full pipeline", "type": "debugpy", "request": "launch", "program": "run_pipeline.py",
+     "args": ["--epochs", "30"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Run tests", "type": "debugpy", "request": "launch", "module": "pytest",
+     "args": ["-q"], "cwd": "${workspaceFolder}"}
+  ]
+}

@@ -1,0 +1,5 @@
+2026-10-26 07:30:50,070 INFO __main__: baselines done
+2026-10-26 07:31:34,036 INFO __main__: tabular (calendar) done
+2026-10-26 07:32:04,044 INFO __main__: tabular (no calendar) done
+2026-10-26 07:32:04,639 INFO __main__: LSTM samples: train 36124 val 5760 test 5760
+2026-10-26 07:32:21,069 INFO __main__: seed 0 epoch 01 train 0.1511 val 0.1895 (15.4s)
